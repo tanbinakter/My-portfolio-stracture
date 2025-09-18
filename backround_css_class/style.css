@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+#navbar{
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+#navbar input{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bolder;
+  
+}
+#navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+    
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+#navbar ul li a:hover{
+    color: aquamarine;
+}
+
+#heroSection{
+    background-image: url(back.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     background-blend-mode: overlay;
+  background-color: rgb(181, 236, 181);
+  
+    
+    
+    
+    
+
+    & button{
+        width: 120px;
+        height: 40px;
+        margin: 10px;
+        padding: 5px;
+        background-color: rgb(222, 144, 241);
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        & a{
+            text-decoration: none;
+        }
+    }
+
+    & h2{
+        font-size: 40px;
+
+    }
+    & span{
+        color: rgb(23, 77, 47);
+    }
+}
+
+.contact{
+    margin-bottom: 10px;
+}
